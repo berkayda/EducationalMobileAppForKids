@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonOption1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seçenek 1" />
+
+    <Button
+        android:id="@+id/buttonOption2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seçenek 2" />
+
+    <Button
+        android:id="@+id/buttonOption3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seçenek 3" />
+
+    <Button
+        android:id="@+id/buttonOption4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seçenek 4" />
+
+</LinearLayout>
